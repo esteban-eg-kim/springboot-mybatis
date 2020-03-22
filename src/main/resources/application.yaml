@@ -1,0 +1,14 @@
+spring:
+  profile: version01
+  datasource:
+    hikari:
+      writerdb:
+        jdbc-url: jdbc:h2:mem:writerdb
+        username: sa
+        password:
+        dirver-class-name: org.h2.Driver
+      readerdb:
+        jdbc-url: jdbc:h2:mem:readerdb
+        username: sa
+        password:
+        dirver-class-name: org.h2.Driver
